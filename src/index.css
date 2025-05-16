@@ -1,0 +1,28 @@
+/* Force light theme everywhere */
+html,
+body {
+  background-color: #fff !important;
+  color: #363636 !important;
+}
+
+/* Bulma components to light */
+.input,
+.select select,
+.button,
+.card,
+.navbar,
+.section,
+.box {
+  background-color: #fff !important;
+  color: #363636 !important;
+  border-color: #dbdbdb !important;
+}
+
+::placeholder {
+  color: #999 !important;
+}
+
+/* Ensure full-width, stacked cards */
+.card {
+  width: 100%;
+}
